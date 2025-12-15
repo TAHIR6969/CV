@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Optional: you can remove the next line if your teacher wants pure local assets -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Theme toggle (CSS only) -->
+  <input id="theme" class="theme-toggle" type="checkbox" aria-label="Toggle theme" />
+  <div class="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <span>CV</span>
+      </div>
+
+      <label class="theme-switch" for="theme" title="Toggle theme">
+        <span class="sun" aria-hidden="true">☀</span>
+        <span class="moon" aria-hidden="true">☾</span>
+        <span class="knob" aria-hidden="true"></span>
+      </label>
+
+      <a class="btn" href="javascript:window.print()" title="Print / Save PDF">
+        <span class="btn-ico" aria-hidden="true">
+          <!-- printer icon -->
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 9V2h12v7"/>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+            <path d="M6 14h12v8H6z"/>
+          </svg>
+        </span>
+        Print / PDF
+      </a>
+    </header>
+
+    <main class="page">
+      <!-- Left: Sidebar -->
+      <aside class="sidebar">
+        <section class="card hero">
+          <div class="avatar-wrap">
+            <!-- Put your photo as profile.jpg in the same folder -->
+            <img class="avatar" src="profile.jpg" alt="Profile photo">
+            <span class="ring" aria-hidden="true"></span>
+          </div>
+
+          <div class="hero-text">
+            <h1>Tahir Leibah</h1>
+            <p class="role">MIS Student • Web Developer</p>
+            <p class="tagline">
+              Building practical systems: e-commerce, automation, and clean UI.
+            </p>
+
+            <div class="meta">
+              <div class="meta-row">
+                <span class="ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.11 4.18 2 2 0 0 1 4.09 2h3a2 2 0 0 1 2 1.72c.12.86.31 1.7.57 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.12a2 2 0 0 1 2.11-.45c.8.26 1.64.45 2.5.57A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </span>
+                <a href="tel:+905xxxxxxxxx">+90 5376983780</a>
+              </div>
+
+              <div class="meta-row">
+                <span class="ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16v16H4z"/>
+                    <path d="M4 4l8 8 8-8"/>
+                  </svg>
+                </span>
+                <a href="mailto:you@email.com">me@tahirali.work</a>
+              </div>
+
+              <div class="meta-row">
+                <span class="ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 21s8-4.5 8-11a8 8 0 0 0-16 0c0 6.5 8 11 8 11z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </span>
+                <span>Ankara, Türkiye</span>
+              </div>
+            </div>
+
+            <div class="quick-links">
+              <a class="pill" href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+                <span aria-hidden="true">🐙</span> GitHub
+              </a>
+              <a class="pill" href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">
+                <span aria-hidden="true">in</span> LinkedIn
+              </a>
+              <a class="pill" href="#" target="_blank" rel="noreferrer">
+                <span aria-hidden="true">🌐</span> Portfolio
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Skills</h2>
+          <div class="chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">Git</span>
+            <span class="chip">Linux</span>
+            <span class="chip">UI</span>
+          </div>
+
+          <div class="bars">
+            <div class="bar">
+              <div class="bar-top"><span>Front‑end</span><span class="muted">Advanced</span></div>
+              <div class="track"><span style="width:65%"></span></div>
+            </div>
+            <div class="bar">
+              <div class="bar-top"><span>Marketing</span><span class="muted">Intermediate</span></div>
+              <div class="track"><span style="width:80%"></span></div>
+            </div>
+            <div class="bar">
+              <div class="bar-top"><span>Design</span><span class="muted">Good</span></div>
+              <div class="track"><span style="width:70%"></span></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Languages</h2>
+          <ul class="list">
+           <li><span>Tamazight</span><span class="muted">Mother Tongue</span></li>
+            <li><span>Arabic</span><span class="muted">Native</span></li>
+            <li><span>Turkish</span><span class="muted">Intermediate</span></li>
+            <li><span>English</span><span class="muted">Intermediate</span></li>
+         </ul>
+        </section>
+
+        <section class="card">
+          <h2>Tools</h2>
+          <ul class="list">
+            <li><span>VS Code</span><span class="muted">Daily</span></li>
+            <li><span>Figma / Canva</span><span class="muted">Design</span></li>
+            <li><span>GitHub</span><span class="muted">Versioning</span></li>
+            <li><span>Arch Linux</span><span class="muted">Power user</span></li>
+          </ul>
+        </section>
+
+        <section class="card tip">
+          <h2>Nice touch</h2>
+          <p class="muted">
+            Tip: Click “Print / PDF” to export a clean PDF for submission.
+          </p>
+        </section>
+      </aside>
+
+      <!-- Right: Main content -->
+      <section class="content">
+        <section class="card">
+          <h2>Profile</h2>
+          <p>
+            Yönetim Bilişim Sistemleri öğrencisiyim ve e-ticaret süreçleri, teslimat operasyonları POS sistemleri ve otomasyon alanlarında gerçek dünyaya yönelik yazılımlar geliştiriyorum. Fikirleri kullanıcı odaklı, sade arayüzlere ve güvenilir, ölçeklenebilir iş süreçlerine dönüştürmeyi hedefliyorum, profesyonel değer üreten çözümler.
+          </p>
+
+          <div class="highlights">
+            <div class="mini">
+              <h3>Odak Alanları</h3>
+              <p class="muted">E-ticaret • Sistemler • Otomasyon</p>
+            </div>
+            <div class="mini">
+              <h3>Hedef</h3>
+              <p class="muted">Ölçeklenebilir yerel platformlar geliştirmek</p>
+            </div>
+            <div class="mini">
+              <h3>Güçlü Yön</h3>
+              <p class="muted">Sistematik yazılım geliştirme ve problem çözme</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <h2>Eğitim</h2>
+            <span class="badge">2025 – Present</span>
+          </div>
+
+          <div class="timeline">
+            <div class="t-item">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-body">
+                <div class="t-top">
+                  <h3>Ankara Medipol University</h3>
+                  <span class="muted">Bachelor of Science (BSc) — Management Information Systems</span>
+                </div>
+                <ul>
+                 <li>Temel Alanlar: işletme temelleri, pazarlama, yönetim, veritabanları, programlama, analitik</li>
+                  <li>Projeler: web tabanlı uygulamalar, iş süreçleri tasarımı ve sistem düşüncesi</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <span class="badge">Selected</span>
+          </div>
+
+          <div class="projects">
+            <article class="project">
+              <div class="project-top">
+                <h3>Giyim E-Ticaret Uygulaması Hızlı Yerel Teslimat</h3>
+                <span class="muted">2025</span>
+              </div>
+              <p class="muted">
+                Sipariş → paketleme → kurye yönlendirme akışını tasarladım ve satıcı paneli fikirleri geliştirdim.
+
+              </p>
+              <div class="tags">
+                <span class="tag">Akış Yönetimi</span>
+                <span class="tag">Lojistik</span>
+                <span class="tag">Dashboard</span>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-top">
+                <h3>Restoran Satış Sistemi (POS Web Uygulaması)</h3>
+                <span class="muted">2025</span>
+              </div>
+              <p class="muted">
+               POS prototipi: fişler, barkod konsepti ve günlük satış raporlaması; yazdırma iş akışı planlandı
+              </p>
+              <div class="tags">
+                <span class="tag">Electron</span>
+                <span class="tag">Fişleme</span>
+                <span class="tag">Satış Raporlama</span>
+
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-top">
+                <h3>Design & Marketing Assets</h3>
+                <span class="muted">Ongoing</span>
+              </div>
+              <p class="muted">
+                Sosyal medya platformları için modern tasarım gridleriyle afişler, marka kimliği ve ürün kartları tasarladım. Sosyal medya sayfalarını yönettim ve dijital pazarlama süreçlerindebaşlangıç seviyesinde deneyim edindim
+              </p>
+              <div class="tags">
+                <span class="tag">Canva</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Markalaşma</span>
+
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <h2>Deneyim</h2>
+            <span class="badge">İsteğe Bağlı</span>
+          </div>
+
+          <div class="timeline">
+            <div class="t-item">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-body">
+                <div class="t-top">
+                  <h3>Freelance / Kişisel Projeler</h3>
+                  <span class="muted">2024 – 2025</span>
+                </div>
+                <ul>
+                  <li>Web sayfaları ve kullanıcı arayüzü (UI) tasarımları yaptım; mobil ve masaüstü uyumluluğunu sağladım. Yazılım geliştirmeden ziyade tasarım odaklı çalıştım ve Libya’daki farklı şirketlerle iş birliği içinde projelerde yer aldım</li>
+                  <li>Planned product delivery operations and customer support flows</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <h2>Achievements</h2>
+            <span class="badge">Highlights</span>
+          </div>
+
+          <div class="grid2">
+            <div class="stat">
+              <h3>3+</h3>
+              <p class="muted">Real projects built</p>
+            </div>
+            <div class="stat">
+              <h3>2</h3>
+              <p class="muted">Languages used daily</p>
+            </div>
+            <div class="stat">
+              <h3>1</h3>
+              <p class="muted">Goal: launch platform</p>
+            </div>
+            <div class="stat">
+              <h3>∞</h3>
+              <p class="muted">Learning mindset</p>
+            </div>
+          </div>
+    </main>
+
+  </div>
+</body>
+</html>
